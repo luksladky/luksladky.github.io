@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lukas Sladky&#39;s blog</title>
+    <link>https://luksladky.github.io/</link>
+    <description>Recent content on Lukas Sladky&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Feb 2023 20:34:39 +0100</lastBuildDate><atom:link href="https://luksladky.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add Existing Git to Github</title>
+      <link>https://luksladky.github.io/posts/add-existing-git-to-github/</link>
+      <pubDate>Sat, 04 Feb 2023 20:34:39 +0100</pubDate>
+      
+      <guid>https://luksladky.github.io/posts/add-existing-git-to-github/</guid>
+      <description>Adding an existing Git repository to GitHub Let’s say you’ve just created a GitHub repository like I did and you want to push files which already you have already setup in ~/project_folder. That could look like something like this
+mkdir ~/project_folder cd ~/project_folder echo &amp;#34;My Awesome Project&amp;#34; &amp;gt;&amp;gt; README.md You init a repository like this and create you first commit.
+$ cd ~/project_folder $ git init $ git add * $ git commit -m &amp;#34;Init repository&amp;#34; Now the local repository is setup and all what’s left is to connect it to the remote.</description>
+    </item>
+    
+  </channel>
+</rss>
